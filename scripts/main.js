@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   var mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/icicle.jpg') {
+  if(mySrc === 'images/Merry-Christmas.jpg') {
     myImage.setAttribute ('src', 'images/Merry-Christmas-holidyas.png');
   } else {
-    myImage.setAttribute ('src', 'images/icicle.jpg');
+    myImage.setAttribute ('src', 'images/Merry-Christmas.jpg');
   }
 }
 
